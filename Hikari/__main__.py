@@ -82,22 +82,22 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *ʜᴇʟʟᴏ {} !*
-✪ Hɪ sᴀʏᴀ ᴇɴᴠᴏʟᴇʀ ʀᴏʙᴏᴛ[✨](https://telegra.ph//file/b413cf48b78b3210b0a2d.jpg)
+✪ ʜɪ sᴀʏᴀ ʙʟᴀᴄᴋ ᴍᴀɢɪᴄ ʀᴏʙᴏᴛ[♬](https://telegra.ph//file/da85e61d3c39898cae6ef.jpg)
 ────────────────────────
-◈ *ᴜᴘᴛɪᴍᴇ:* `{}`
-◈ `{}` *ᴘᴇɴɢɢᴜɴᴀ, ᴅɪ * `{}` *ɢʀᴏᴜᴘ*
+♬ *ᴜᴘᴛɪᴍᴇ:* `{}`
+♬ `{}` *ᴘᴇɴɢɢᴜɴᴀ, ᴅɪ * `{}` *ɢʀᴏᴜᴘ*
 ────────────────────────
 ⬝ ᴛᴇᴋᴀɴ /help ᴜɴᴛᴜᴋ ʙᴀɴᴛᴜᴀɴ
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/+cobEr0NNAekzOWJl"
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/+m9j6ghv2zptlYThl"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="ᴏᴡɴᴇʀ", url="https://t.me/bieinhere"
+            text="ᴏᴡɴᴇʀ", url="https://t.me/inireyhannn"
         ),
     ],
     [
@@ -106,7 +106,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕️ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ➕️", url="https://t.me/punyaenvolernihbot?startgroup=true"
+            text="➕️ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ➕️", url="https://t.me/blackmagicrobot?startgroup=true"
         ),
     ],
 ]
@@ -115,7 +115,7 @@ buttons = [
 HELP_STRINGS = """
 Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik."""
 
-HIKARI_IMG = "https://telegra.ph//file/b413cf48b78b3210b0a2d.jpg"
+HIKARI_IMG = "https://t.me/inireyhannn"
 
 DONATE_STRING = """Hai,para pengguna Envoler robot 
  kalian dapat mendukung bot ini dengan cara menghubungi @bieinhere \
@@ -497,13 +497,13 @@ def hikari_about_callback(update, context):
         )
     elif query.data == "hikari_own":
         query.message.edit_text(
-            text="👨‍💻 Untuk yang ingin berdonasi sebagai ucapan terimakasih kepada Pembuat Joox Music,"
+            text="👨‍💻 Untuk yang ingin berdonasi sebagai ucapan terimakasih kepada Pembuat black magic robot,"
             "\n\n • Silahkan Hubungi Owner atau klik dibawah ini",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="**Teken**", url="https://t.me/Dexzishere"),
+                    InlineKeyboardButton(text="**Teken**", url="https://t.me/inireyhannn"),
                  ],
                  [
                     InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="hikari_back"),
