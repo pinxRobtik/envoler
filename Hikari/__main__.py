@@ -118,7 +118,7 @@ Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik."
 HIKARI_IMG = "https://t.me/inireyhannn"
 
 DONATE_STRING = """Hai,para pengguna Envoler robot 
- kalian dapat mendukung bot ini dengan cara menghubungi @bieinhere \
+ kalian dapat mendukung bot ini dengan cara menghubungi @inireyhannn \
  Satu support dari kalian sangat berarti \
  semoga kalian suka dengan bot ini selamat menggunakan bot ini ."""
 
@@ -234,7 +234,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hᴇʟʟᴏ Yᴀᴀsʜ Mᴜsɪᴄ!</b>\n<b>𝚄𝚙𝚝𝚒𝚖𝚎:</b> <code>{uptime}</code>",
+            f"<b>ᴀᴋᴜ ʙʟᴀᴄᴋ ᴍᴀɢɪᴄ ʀᴏʙᴏᴛ!</b>\n<b>𝚄𝚙𝚝𝚒𝚖𝚎:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -365,8 +365,8 @@ def hikari_about_callback(update, context):
     query = update.callback_query
     if query.data == "hikari_":
         query.message.edit_text(
-            text="🎧 Bantuan Perintah Music Envoler."
-            "\npilih menu di bawah ini untuk melihat bantuan Music Envoler ",
+            text="🎧 Bᴀɴᴛᴜᴀɴ ᴘᴇʀɪɴᴛᴀʜ Mᴀɢɪᴄ."
+            "\npilih menu di bawah ini untuk melihat Bᴀɴᴛᴜᴀɴ ᴘᴇʀɪɴᴛᴀʜ Mᴀɢɪᴄ ",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -446,8 +446,8 @@ def hikari_about_callback(update, context):
         )
     elif query.data == "hikari_support":
         query.message.edit_text(
-            text="*📝 Bantuan Perintah Envoler Mᴜsɪᴄ*"
-            "\npilih tombol dibawah untuk melihat bantuan perintah Envoler Music.",
+            text="*📝 Bᴀɴᴛᴜᴀɴ ᴘᴇʀɪɴᴛᴀʜ Mᴀɢɪᴄ*"
+            "\npilih tombol dibawah untuk melihat bantuan perintah Bᴀɴᴛᴜᴀɴ ᴘᴇʀɪɴᴛᴀʜ Mᴀɢɪᴄ.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -569,7 +569,7 @@ def get_help(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="👨‍💼 Bantuan",
-                                url="t.me/{}?start=ghelp_{}".format(
+                                url="t.me/inireyhannn{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
                             )
